@@ -22,11 +22,17 @@
                     <span>Match Schedule</span>
                 </button>
                 <div class="scahedule_wrap">
-                    <h2>MATCH SCHEDULE</h2>
+                    <div class="title">
+                        <h2>MATCH SCHEDULE</h2>
+                    </div>
                     <div class="category">
-                        <button type="button" class="scahedule_all_btn">All</button>
-                        <button type="button" class="scahedule_home_btn">home</button>
-                        <button type="button" class="scahedule_away_btn">away</button>
+                        <ul>
+                            <li><button type="button">All</button></li>
+                            <li><span></span></li>
+                            <li><button type="button">home</button></li>
+                            <li><span></span></li>
+                            <li><button type="button">away</button></li>
+                        </ul>
                     </div>
                     <div class="scahedule_all">
                         <div class="card">
@@ -54,20 +60,48 @@
         </header>
         <main>
             <section id="hero">
-                <div class="main_video">
-                    <iframe 
-                    width="1920" 
-                    height="1080"
-                    src="https://www.youtube.com/embed/TYjA8kguSts?autoplay=1&mute=1&controls=0&playsinline=1&loop=1&playlist=TYjA8kguSts&modestbranding=1&rel=0" 
-                    title="Samsung Lions 2025 Opening Video"
-                    frameborder="0"
-                    allow="autoplay; encrypted-media; fullscreen; picture-in-picture"
-                    allowfullscreen
-                    ></iframe>
+                <div class="hero_inner">
+                    <div class="main_video">
+                        <iframe 
+                        width="1920" 
+                        height="1080"
+                        src="https://www.youtube.com/embed/TYjA8kguSts?autoplay=1&mute=1&controls=0&playsinline=1&loop=1&playlist=TYjA8kguSts&modestbranding=1&rel=0" 
+                        title="Samsung Lions 2025 Opening Video"
+                        frameborder="0"
+                        allow="autoplay; encrypted-media; fullscreen; picture-in-picture"
+                        allowfullscreen
+                        ></iframe>
+                    </div>
+                    <div class="arrow_bottom">
+                        <span>SAMSUNG Lions</span>
+                    </div>
                 </div>
-        
             </section>
-            <section id="Players"></section>
+            <section id="Players">
+                <div class="title">
+                    <h2 class="main">LIONS PLAYERS</h2>
+                    <p class="sub">팀을 이끄는 선수들을 만나보세요.</p>
+                </div>
+                <div class="category">
+                    <ul>
+                        <li><button type="button">투수</button></li>
+                        <li><span></span></li>
+                        <li><button type="button">타자</button></li>
+                        <li><span></span></li>
+                        <li><button type="button">코치</button></li>
+                    </ul>
+                    <div class="search">
+                        선수 이름을 검색해주세요.
+                    </div>
+                </div>
+                <div class="swiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="card"></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
             <section id="shop"></section>
             <section id="media"></section>
             <section id="sns"></section>
